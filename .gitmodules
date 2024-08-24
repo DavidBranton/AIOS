@@ -1,0 +1,4 @@
+
+[submodule "AIOS"]
+    path = AIOS
+    url = https://github.com/DavidBranton/AIOS
