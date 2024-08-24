@@ -1,0 +1,44 @@
+# Ignore system files and directories
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+NTUSER.DAT
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Ignore common directories
+.vscode/
+.idea/
+node_modules/
+venv/
+*.log
+.DS_Store
+
+# Ignore Windows system files
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+
+# Ignore cache and config files
+.cache/
+.gitconfig
+
