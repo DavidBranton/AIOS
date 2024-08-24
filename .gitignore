@@ -41,4 +41,7 @@ Videos/
 # Ignore cache and config files
 .cache/
 .gitconfig
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5cdce6e18c0a1c30b86ba0c26b32bdb63ecd3339
