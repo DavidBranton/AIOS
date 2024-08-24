@@ -24,3 +24,20 @@ node_modules/
 venv/
 *.log
 .DS_Store
+
+# Ignore Windows system files
+AppData/
+Contacts/
+Downloads/
+Favorites/
+Links/
+Music/
+NTUSER.DAT*
+OneDrive/
+Saved Games/
+Searches/
+Videos/
+
+# Ignore cache and config files
+.cache/
+.gitconfig
