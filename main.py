@@ -137,4 +137,18 @@ def test_code(version_3_path, improvement_doc_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run CI/CD pipeline stages.")
-    parser.add_argument('--
+    parser.add_argument('--analyze', action='store_true', help='Analyze code in Version 3.') parser.add_argument('--improve', action='store_true', help='Improve code based on analysis.') parser.add_argument('--test', action='store_true', help='Test the improved code.')
+
+args = parser.parse_args()
+
+version_3_code_path = os.path.join(VERSION_DIRS['version_3'], 'code.py')
+analysis_doc_path = os.path.join(DATA_PATH, 'analysis_doc.json')
+
+if args.analyze:
+    analyze_code(version_3_code_path)
+if args.improve:
+    improve_code(analysis_doc_path, version_3_code_path)
+if args.test:
+    test_code(version_3_code_path, os.path.join(DATA_PATH, 'code_improvement_doc.json'))
+
+
