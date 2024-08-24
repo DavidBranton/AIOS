@@ -1,0 +1,3 @@
+[submodule "EvoAI"]
+	path = EvoAI
+	url = https://github.com/DavidBranton/EvoAI.git
